@@ -4,7 +4,7 @@
   "description": "Installing Node and npm",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha"
+    "test": "node_modules/mocha/bin/mocha test.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "homepage": "https://github.com/learn-co-curriculum/node-install#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5",
+    "mocha": "^2.5.3",
     "semver": "^5.1.0"
   }
 }
